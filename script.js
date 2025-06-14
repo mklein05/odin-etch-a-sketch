@@ -3,7 +3,7 @@ let resizeButton = document.querySelector(".resize");
 
 
 function generateGrid(gridSize) {
-    boxSize = 500 / gridSize;
+    boxSize = 400 / gridSize;
     for(let j = 0; j < gridSize; j++){
         let row = document.createElement("div");
         row.classList.add("row");
